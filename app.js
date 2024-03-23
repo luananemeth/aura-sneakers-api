@@ -34,7 +34,6 @@ app.get("/products", (request, response) => {
   );
 });
 
-// connection.end();
 app.listen(port, () => {
   console.log("Server Listening on PORT:", port);
 });
